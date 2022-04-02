@@ -6,7 +6,6 @@ p5 = str(input('ja trabalhou com a vitima? responda 1 pra sim e 0 pra não:'))
 
 if p1 == sim:
 
-
 soma = p1 + p2 + p3 + p4 + p5
 
 if soma == 2:
