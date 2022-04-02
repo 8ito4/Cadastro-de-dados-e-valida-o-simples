@@ -1,0 +1,19 @@
+p1 = str(input('Telefonou para a vítima? responda 1 pra sim e 0 pra não:'))
+p2 = str(input('Esteve no local do crime? responda 1 pra sim e 0 pra não:'))
+p3 = str(input('Mora perto da vítima? responda 1 pra sim e 0 pra não:'))
+p4 = str(input('Devia para a vítima? responda 1 pra sim e 0 pra não:'))
+p5 = str(input('ja trabalhou com a vitima? responda 1 pra sim e 0 pra não:'))
+
+if p1 == sim:
+
+
+soma = p1 + p2 + p3 + p4 + p5
+
+if soma == 2:
+    print ('suspeita')
+elif soma == 3 or soma == 4:
+    print ('cúmplice')
+elif soma == 5:
+    print ('assassino')
+else:
+    print ('inocente')

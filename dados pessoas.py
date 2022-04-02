@@ -1,0 +1,12 @@
+
+mediaidade = 0
+somaidade = 0
+for p in range(1,6):
+    print ('----- DADOS DA {}ª PESSOA -----'.format(p))
+    nome = str(input('nome:')).strip()
+    idade = int(input('idade'))
+    sexo = str(input('sexo:[M/F]')).strip()
+    somaidade += idade
+
+mediaidade = somaidade / 5
+print ('a media de idade do grupo é de {} anos'.format(mediaidade))
