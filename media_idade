@@ -1,4 +1,3 @@
-
 mediaidade = 0
 somaidade = 0
 for p in range(1,6):
